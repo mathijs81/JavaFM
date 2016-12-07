@@ -7,16 +7,19 @@
  */
 package org.ranksys.javafm.learner.gd;
 
-import it.unimi.dsi.fastutil.ints.Int2ObjectMap.Entry;
-import static java.lang.Math.log;
+import static org.apache.commons.math3.util.FastMath.log;
+
 import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
+
 import org.ranksys.javafm.FM;
 import org.ranksys.javafm.FMInstance;
-import org.ranksys.javafm.learner.FMLearner;
 import org.ranksys.javafm.data.ListWiseFMData;
+import org.ranksys.javafm.learner.FMLearner;
+
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap.Entry;
 
 /**
  *

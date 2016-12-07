@@ -8,13 +8,15 @@
 package org.ranksys.javafm.learner.gd;
 
 import static java.lang.Double.NaN;
-import static java.lang.Math.exp;
-import static java.lang.Math.log;
+import static org.apache.commons.math3.util.FastMath.exp;
+import static org.apache.commons.math3.util.FastMath.log;
+
 import java.util.logging.Logger;
+
 import org.ranksys.javafm.FM;
 import org.ranksys.javafm.FMInstance;
-import org.ranksys.javafm.learner.FMLearner;
 import org.ranksys.javafm.data.FMData;
+import org.ranksys.javafm.learner.FMLearner;
 
 /**
  *
